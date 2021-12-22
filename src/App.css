@@ -1,0 +1,87 @@
+
+* {
+  box-sizing: border-box;
+}
+
+#page-wrap {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+@font-face {
+  font-family: 'Zai';
+  src: local('Zai'), url(./fonts/zai.ttf) format('truetype');
+}
+
+body {
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+yarn add react-scroll
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.typed-text {
+  font-size: calc(100vmin / 10);
+}
+
+.main-info h2 {
+  color:#4aec9b;
+  font-size: calc(100vmin / 17);
+  /*text-shadow:1px 0 0 black,0 1px 0 black,-1px 0 0 black,0 -1px 0 black;*/
+}
+
+.navbar-dark, .navbar-nav, .nav-link {
+  font-family:  Georgia;
+  color: white;
+}
+
+.header-wrapper {
+  position: relative;
+  justify-content: center;
+  font-family: Zai;
+}
+
+.main-info { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
