@@ -1,40 +1,132 @@
-
-* {
-  box-sizing: border-box;
+.overlay {
+  position: fixed;
+  bottom: 0px;
+  opacity: .05;
 }
 
-#page-wrap {
-  padding-bottom: 10px;
-  padding-top: 10px;
+.cloud {
+  position: absolute;
+  right: 20vw;
 }
+
+.aboutme {
+  position: absolute;
+  left: 10vw;
+}
+
+.outer-wrapper {
+  height: 90vh;
+}
+
+html {
+  height:90vh;
+  scrollbar-width: none; 
+}
+
+.header-wrapper {
+  height:100vh;
+  width: 100vw;
+  text-align: center;
+  justify-content: center;
+  display:flex;
+  align-items: center;
+}
+
+.wrapper {
+  display:flex;
+  flex-direction: column;
+}
+
+.aboutme {
+  font-family: Amatic;
+}
+
+canvas {
+  font-family: Bebas;
+
+}
+
+.slide {
+  width: 100vw;
+
+}
+
+.one {
+  height: 70vh;
+}
+
+.two {
+  background: #282c34;
+  color:white;
+  height: 40vh;
+  font-family: Bebas;
+  font-size: calc(100vmin / 10);
+}
+
+p {
+  font-size: calc(100vmin / 40);
+}
+
+
+.three {
+  font-family: Bebas;
+  font-size: calc(100vmin / 10);
+  text-align: right;
+  background: #4aec9b;
+  height: 40vh;
+
+}
+
+.four {
+  font-family: Bebas;
+  font-size: calc(100vmin / 10);
+  text-align: left;
+  background: #282c34;
+  height: 40vh;
+  color: white;
+
+}
+
+.five {
+  font-family: Bebas;
+  font-size: calc(100vmin / 10);
+  text-align: center;
+  background: white;
+  height: 40vh;
+  color: #282c34;
+
+}
+
 
 @font-face {
   font-family: 'Zai';
   src: local('Zai'), url(./fonts/zai.ttf) format('truetype');
 }
 
-body {
-  height: 100vh;
-  text-align: center;
-  justify-content: center;
-  display: flex;
-  align-items: center;
+@font-face {
+  font-family: 'Bebas';
+  src: local('Bebas'), url(./fonts/Bebas.ttf) format('truetype');
 }
 
-yarn add react-scroll
+@font-face {
+  font-family: 'Amatic';
+  src: local('Amatic'), url(./fonts/Amatic.ttf) format('truetype');
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
 .typed-text {
-  font-size: calc(100vmin / 10);
+  font-size: calc(100vmin / 17);
+  color:#4aec9b;
 }
 
-.main-info h2 {
-  color:#4aec9b;
-  font-size: calc(100vmin / 17);
-  /*text-shadow:1px 0 0 black,0 1px 0 black,-1px 0 0 black,0 -1px 0 black;*/
+
+.logo {
+  font-size: calc(100vmin / 10);
+  /*text-shadow:1px 0 0 #26272b,0 1px 0 #26272b,-1px 0 0 #26272b,0 -1px 0 #26272b;*/
 }
 
 .navbar-dark, .navbar-nav, .nav-link {
@@ -44,11 +136,7 @@ yarn add react-scroll
 
 .header-wrapper {
   position: relative;
-  justify-content: center;
   font-family: Zai;
-}
-
-.main-info { 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -62,6 +150,7 @@ yarn add react-scroll
   }
 }
 
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -73,15 +162,12 @@ yarn add react-scroll
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.black {
+  background-color: #26272b;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+::-webkit-scrollbar {
+  display:none;
+  scrollbar-width: none; 
 }

@@ -1,22 +1,29 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
+import { Routes, Route, Link } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
-import About from "./components/About";
 import Sidebar from './components/Sidebar';
+import Background from './components/background';
+
+
 
 function App() {
+
+  
   return (
     <div className="App" id="outer-container">
             <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
-      <div id="page-wrap">
-          <>
-        <Navbar />
+      <Routes>
+      </Routes>
+        <Background />
         <Header />
-        </>
-      </div>
+        <Navbar />
     </div>
     );
+
 }
+
+
 
 export default App;
