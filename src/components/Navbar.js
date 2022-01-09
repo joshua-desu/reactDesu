@@ -4,7 +4,7 @@ const Navbar = () => {
 
     return (
       
-        <nav className="navbar fixed-bottom navbar-expand-lg navbar-dark black ">
+        <nav className="navbar fixed-bottom navbar-expand navbar-dark black ">
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mx-auto">
