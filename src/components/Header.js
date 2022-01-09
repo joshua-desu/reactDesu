@@ -7,12 +7,6 @@ import simpleIcons from "simple-icons";
 import Particle from "react-tsparticles"
 
 
-const scrollContainer = document.querySelector('main');
-
-scrollContainer.addEventListener('wheel', (evt) => {
-  // The magic happens here.
-});
-
 const particlesInit = (main) => {
     console.log(main);
 
