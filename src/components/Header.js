@@ -98,16 +98,7 @@ const Header = () => {
             backDelay={4000}
             loop
           /></div>
-<div className="wrapper2">
-                    <div className="aboutme"> <div className='speechbubble'>
-                        <p>
-                            Check out some of my skills! <br />
-                            Some of my projects can be found below.
-                        </p>
-                        </div></div>
-                        <div className="man">
-                            <img src={Hello} />
-                        </div></div>
+
          <div className="skills">
               <ul>
                 <li>
