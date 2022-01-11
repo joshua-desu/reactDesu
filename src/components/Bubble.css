@@ -5,9 +5,9 @@
 
 .man img {
     height: calc(100vmin / 2);
-    overflow-y: hidden;
+    position: relative;
+    bottom: 0;
   }
-
 .page-wrap {
     height: 100vh;
     padding-bottom: 10px;

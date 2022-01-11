@@ -6,24 +6,25 @@ import Header from "./components/Header";
 import Sidebar from './components/Sidebar';
 import Background from './components/background';
 
-
+ 
 
 function App() {
 
-  
+ 
   return (
     <div className="App" id="outer-container">
-            <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
+            <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />    
       <Routes>
       </Routes>
         <Background />
         <Header />
         <Navbar />
+        <title>TItle</title>
+    
     </div>
+
     );
 
 }
-
-
 
 export default App;
