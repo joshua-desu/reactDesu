@@ -1,7 +1,7 @@
 import React from "react";
 import Typed from "react-typed";
 import "./Bubble.css";
-import Hello from "../images/hello.png";
+import Hello from "../images/joshua.png";
 import Slide from "react-reveal/Slide";
 import simpleIcons from "simple-icons";
 import Particle from "react-tsparticles";
@@ -100,7 +100,7 @@ const Header = () => {
           /></div>
 
         <h2>
-    
+            <div className="header-wrapper"><img src={Hello}></img></div>
         </h2> <div className="skills">
               <ul>
                 <li>
@@ -147,13 +147,9 @@ const Header = () => {
       </div>
 
       <div className="wrapper">
-        <div className="slide one">
-          <div className="aboutme">
-           
-          </div>
-        </div>
-        <div className="slide z"></div>
+          <div className="aboutme">  </div>
 
+           <div className="projects">P  R  O  J  E        C   T   S</div>
         <div className="slide two">
           <div className="coverW"></div>
           <div className="words">
@@ -190,7 +186,7 @@ const Header = () => {
               <div className="languages">React Native</div>
             </Slide>
           </div>
-          <div className="previewBox2"></div>
+          <div className="previewBox22"></div>
         </div>
         <div className="slide four">
           <div className="coverW"></div>
