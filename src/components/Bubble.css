@@ -6,7 +6,6 @@
 .man img {
     height: calc(100vmin / 2);
     position: relative;
-    bottom: 0;
   }
 .page-wrap {
     height: 100vh;
@@ -31,7 +30,7 @@
 
 
 .aboutme .wrapper2 {
-  max-width: calc(100vw / 3.5);
+  max-width: calc(100vw);
   margin: 0 auto;
 }
 .aboutme .wrapper2 h1 {

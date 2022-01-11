@@ -99,6 +99,22 @@ const Header = () => {
             loop
           /></div>
 
+                    <div className="aboutme">
+                        <div class='wrapper2'>
+                       <Slide right> <div className='speechbubble'>
+                        <p>
+                            Check out some of my skills! <br />
+                            Some of my projects can be found below.
+                        </p>
+                        </div></Slide>   
+                                               
+                        </div>
+                       <div className="man">         <img src={Hello} />
+</div>
+
+                        
+                </div>
+
          <div className="skills">
               <ul>
                 <li>

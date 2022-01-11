@@ -114,6 +114,7 @@ html {
   width: 100vw;
 }
 
+
 .z {
   background: white;
   height: 30vh;
@@ -202,6 +203,9 @@ html {
   color: white;
 }
 
+.one {
+  height: 100vh;
+}
 
 
 .two {
