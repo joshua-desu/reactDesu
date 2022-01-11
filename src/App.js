@@ -21,9 +21,8 @@ function App() {
         <Navbar />
     </div>
     );
-
 }
 
-
+document.title = "joshuadesu.io";
 
 export default App;

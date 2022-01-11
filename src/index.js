@@ -9,9 +9,7 @@ ReactDOM.render(
       <App />
     </BrowserRouter>
   </React.StrictMode>,
-  document.getElementById('root'),
-  document.title = "joshuadesu.io"
-
+  document.getElementById('root')
 );
 
 
