@@ -154,9 +154,9 @@ const Header = () => {
           <div className="words">
             <Slide right>
               <span id="testt">JAPANSLATOR</span>
-              <h3>
+              <span id="details">
               A Google Chrome extension that I built for students learning Japanese. This was my first attempt at making a browser extension, and it was written with Javascript, HTML, and CSS. It primarily functions based on DOM manipulation and API fetches. This extension allows you to easily translate Japanese kanji into easily readable hiragana. Additionally, you may view the English equivalent and check out the entries on Jisho.org dictionary.
-              </h3>{" "}
+              </span>
               <div className="languages">HTML, CSS, Javascript</div>
             </Slide>
           </div>
@@ -167,7 +167,7 @@ const Header = () => {
           <div className="words2">
             <Slide right>
               DOKO IKU GO
-              <h3>
+              <span id="details2">
                 Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -175,7 +175,7 @@ const Header = () => {
                 in reprehenderit in voluptate velit esse cillum dolore eu fugiat
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </h3>
+              </span>
               <div className="languages">React Native</div>
             </Slide>
           </div>
@@ -184,10 +184,10 @@ const Header = () => {
         <div className="slide four">
           <div className="coverW"></div>
           <Slide right>
-            MONTELLODAIRY.COM
-            <h3>
+            <div className="words">MONTELLODAIRY</div>
+            <span id="details">
               Coming Soon...
-            </h3>
+            </span>
           </Slide>
         </div>
         <div className="slide five">
