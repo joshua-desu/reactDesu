@@ -101,12 +101,12 @@ const Header = () => {
                     <div className="aboutme">
                         <div class='wrapper2'>
                   <div className='speechbubble'>
-                            const hello = ['web developer',  <br />
+                            <p>const hello = ['web developer',  <br />
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     'fullstack', <br />
                             &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     'passionate communicator', <br />
                           &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     'human idea machine', <br />
                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     'google-fu expert']                            <br />
-                        </div>
+                        </p></div>
                                                
                         </div>
                        <div className="man">    <div className="skills">
@@ -154,9 +154,9 @@ const Header = () => {
           <div className="words">
             <Slide right>
               <span id="testt">JAPANSLATOR</span>
-              <p>
+              <h3>
               A Google Chrome extension that I built for students learning Japanese. This was my first attempt at making a browser extension, and it was written with Javascript, HTML, and CSS. It primarily functions based on DOM manipulation and API fetches. This extension allows you to easily translate Japanese kanji into easily readable hiragana. Additionally, you may view the English equivalent and check out the entries on Jisho.org dictionary.
-              </p>{" "}
+              </h3>{" "}
               <div className="languages">HTML, CSS, Javascript</div>
             </Slide>
           </div>
@@ -167,7 +167,7 @@ const Header = () => {
           <div className="words2">
             <Slide right>
               DOKO IKU GO
-              <p>
+              <h3>
                 Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -175,7 +175,7 @@ const Header = () => {
                 in reprehenderit in voluptate velit esse cillum dolore eu fugiat
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
+              </h3>
               <div className="languages">React Native</div>
             </Slide>
           </div>
@@ -185,9 +185,9 @@ const Header = () => {
           <div className="coverW"></div>
           <Slide right>
             MONTELLODAIRY.COM
-            <p>
+            <h3>
               Coming Soon...
-            </p>
+            </h3>
           </Slide>
         </div>
         <div className="slide five">

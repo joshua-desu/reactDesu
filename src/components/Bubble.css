@@ -51,7 +51,7 @@
 .aboutme .wrapper2 .speechbubble:nth-child(2n+1):after {
   position: relative;
   content: "";
-  top: 7vh;
+  top: 6vh;
   margin-left: 40vw;
   border-width: 30px 0px 0px 30px;
   border-style: solid;

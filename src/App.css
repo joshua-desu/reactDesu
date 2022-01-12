@@ -231,17 +231,23 @@ html {
 }
 
 .speechbubble {
-  margin-top: calc(100vmin / 5);
-  font-family: monospace;
-  padding: 0px 0px 0px 0px;
-  font-size: calc(100vmin / 37);
-  text-align: left;
+  margin-top: calc(100vmin / 6);
   max-width: 1000px;
   justify-content: center;
   align-items: center;
 }
 
 p {
+  font-family: monospace;
+  padding: 20px 0px 0px 0px;
+  font-size: calc(100vmin / 36);
+  text-align: left;
+  max-width: 1000px;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
   text-align: left;
   font-size: calc(100vmin /30);
   position: relative;
