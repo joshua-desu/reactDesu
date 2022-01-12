@@ -20,7 +20,6 @@ const Header = () => {
   return (
     <div className="outer-wrapper">
       <div className="topbar"> </div>
-      <div className="header-wrapper">
         <div className="snow">
           {" "}
           <Particle
@@ -98,67 +97,53 @@ const Header = () => {
             backDelay={4000}
             loop
           /></div>
-
+          <div className="header-wrapper">
                     <div className="aboutme">
                         <div class='wrapper2'>
-                       <Slide right> <div className='speechbubble'>
-                        <p>
-                            Check out some of my skills! <br />
-                            Some of my projects can be found below.
-                        </p>
-                        </div></Slide>   
+                  <div className='speechbubble'>
+                            const hello = ['web developer',  <br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     'fullstack', <br />
+                            &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     'passionate communicator', <br />
+                          &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     'human idea machine', <br />
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     'google-fu expert']                            <br />
+                        </div>
                                                
                         </div>
-                       <div className="man">         <img src={Hello} />
-</div>
-
-                        
-                </div>
-
-         <div className="skills">
+                       <div className="man">    <div className="skills">
               <ul>
                 <li>
-                  <img
-                    height="32"
-                    width="32"
-                    src="https://unpkg.com/simple-icons@v6/icons/html5.svg"
-                  />
-                  HTML+++
+               
+                  HTML
                 </li>
                 <li>
-                  <img
-                    height="32"
-                    width="32"
-                    src="https://unpkg.com/simple-icons@v6/icons/css3.svg"
-                  />
+                
                   CSS++
                 </li>
                 <li>
-                  <img
-                    height="32"
-                    width="32"
-                    src="https://unpkg.com/simple-icons@v6/icons/javascript.svg"
-                  />
-                  Javascript++{" "}
+                
+                  
+                  Javascript
                 </li>
                 <li>
-                  <img
-                    height="32"
-                    width="32"
-                    src="https://unpkg.com/simple-icons@v6/icons/react.svg"
-                  />
+                 
                   React.js+
                 </li>
                 <li>SQL</li>
                 <li>Bootstrap</li>
                 <li>Python</li>
                 <li>Java</li>
-                <li>Photoshop</li>
-                <li>git</li>
                 <li>npm</li>
+                <li>git</li>
+                <li>Mac OS</li>
+                <li>Photoshop</li>
               </ul>
-            </div>
-      </div>
+            </div>      <img src={Hello} />
+</div>
+
+                        
+                </div>
+
+     </div>
 
       <div className="wrapper">
           <div className="aboutme">  </div>
@@ -170,13 +155,7 @@ const Header = () => {
             <Slide right>
               <span id="testt">JAPANSLATOR</span>
               <p>
-                Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              A Google Chrome extension that I built for students learning Japanese. This was my first attempt at making a browser extension, and it was written with Javascript, HTML, and CSS. It primarily functions based on DOM manipulation and API fetches. This extension allows you to easily translate Japanese kanji into easily readable hiragana. Additionally, you may view the English equivalent and check out the entries on Jisho.org dictionary.
               </p>{" "}
               <div className="languages">HTML, CSS, Javascript</div>
             </Slide>
@@ -187,7 +166,7 @@ const Header = () => {
           <div className="cover2"></div>
           <div className="words2">
             <Slide right>
-              DESUGOGO
+              DOKO IKU GO
               <p>
                 Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -205,20 +184,14 @@ const Header = () => {
         <div className="slide four">
           <div className="coverW"></div>
           <Slide right>
-            JOSHUADESU
+            MONTELLODAIRY.COM
             <p>
-              Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Coming Soon...
             </p>
           </Slide>
         </div>
         <div className="slide five">
-          <Slide right>CONTACT</Slide>
+          <Slide bottom>CONTACT</Slide>
         </div>
       </div>
       <div className="background"></div>

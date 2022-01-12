@@ -10,6 +10,16 @@
   z-index: 5;
 }
 
+.wrapper2 {
+  top: 0px;
+  left: 6vw;
+  right: 6vw;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width:90vw;
+}
+
 .topbar {
   position: fixed;
   content: " ";
@@ -17,7 +27,7 @@
   height: calc(100vmin / 15);
   width: 100vw;
   z-index:2;
-  box-shadow: 0px 1px 20px -10px #ffffff;
+  box-shadow: 0px 1px 10px 0px #ffffff;
 }
 
 .fixed-bottom {
@@ -63,28 +73,37 @@ html {
   align-items: center;
 }
 
-.speechbubble {
-  position: relative;
-  bottom: 50px;
-  max-height: calc(100vmin / 4);
-}
 
-.aboutme {
-  font-family: Amatic;
-  display: flex; 
-}
+
 
 .skills ul {
   columns: 2;
   list-style-type: none;
-}
-
-.skills li {
-  
+  height: fit-content;
+  text-align: left;
+  padding-left: 0px;
+  padding-top: 10px;
 }
 
 #grey {
   color:grey;
+}
+
+
+.skills {
+  font-family: monospace;
+  font-size: calc(100vmin / 25);
+  width: 55vw;
+  left: 0;
+  opacity: .7;
+  background: rgb(189, 189, 189);
+  color: #000000;
+  position:absolute;
+  max-height: 50vh;
+  bottom: calc(100vmin / 8);
+  height: fit-content;
+  border-radius: 0px 10px;
+  
 }
 
 .projects {
@@ -98,16 +117,6 @@ html {
 
 }
 
-.skills {
-  font-family: monospace;
-  font-size: calc(100vmin / 30);
-  width: 100vw;
-  opacity: .7;
-  background: rgb(189, 189, 189);
-  color: #7c7c7b;
-  position: absolute;
-  bottom: 0;
-}
 
 
 .slide {
@@ -221,9 +230,22 @@ html {
 
 }
 
+.speechbubble {
+  margin-top: calc(100vmin / 5);
+  font-family: monospace;
+  padding: 0px 0px 0px 0px;
+  font-size: calc(100vmin / 37);
+  text-align: left;
+  max-width: 1000px;
+  justify-content: center;
+  align-items: center;
+}
+
 p {
-  font-size: calc(100vmin / 30);
+  text-align: left;
+  font-size: calc(100vmin /30);
   position: relative;
+  font-family: monospace;
   top: calc(100vmin / -26);
 }
 
@@ -291,6 +313,10 @@ p {
   font-size: calc(100vmin / 20);
   z-index: 3;  
   position: fixed;
+  font-family: Zai;
+  width: 100vw;
+  text-align: center;
+  justify-content: center;
   top: 0;
 }
 
@@ -305,11 +331,9 @@ p {
 
 .header-wrapper {
   position: relative;
-  font-family: Zai;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
   text-align: center;
 }
 
