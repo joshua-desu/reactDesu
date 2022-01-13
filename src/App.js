@@ -16,8 +16,7 @@ function App() {
       <Routes>
        {/*<Route path="Resume" element={<Resume />} />  */}
       </Routes>
-        <Background />
-        {window.location.pathname == "/" ? <Header /> : null}
+        <Header /> 
         <Navbar />
     </div>
     );

@@ -5,6 +5,8 @@ import Hello from "../images/joshua.png";
 import Slide from "react-reveal/Slide";
 import simpleIcons from "simple-icons";
 import Particle from "react-tsparticles";
+import Background from './background';
+
 
 const particlesInit = (main) => {
   console.log(main);
@@ -19,6 +21,8 @@ const particlesLoaded = (container) => {
 const Header = () => {
   return (
     <div className="outer-wrapper">
+          <Background />
+
       <div className="topbar"> </div>
       <div className="snow">
         {" "}
