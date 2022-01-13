@@ -14,8 +14,8 @@ function App() {
     <div className="App" id="outer-container">
             <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
       <Routes>
-       {/*<Route path="Resume" element={<Resume />} />  */}
       </Routes>
+        <Background />
         <Header /> 
         <Navbar />
     </div>

@@ -5,7 +5,6 @@ import Hello from "../images/joshua.png";
 import Slide from "react-reveal/Slide";
 import simpleIcons from "simple-icons";
 import Particle from "react-tsparticles";
-import Background from './background';
 
 
 const particlesInit = (main) => {
@@ -21,77 +20,8 @@ const particlesLoaded = (container) => {
 const Header = () => {
   return (
     <div className="outer-wrapper">
-          <Background />
-
       <div className="topbar"> </div>
-      <div className="snow">
-        {" "}
-        <Particle
-          id="tsparticles"
-          init={particlesInit}
-          loaded={particlesLoaded}
-          options={{
-            fpsLimit: 60,
-            particles: {
-              move: {
-                bounce: false,
-                direction: "none",
-                enable: true,
-                outModes: "out",
-                random: false,
-                speed: 1,
-                straight: false,
-              },
-              number: { density: { enable: true, area: 1000 }, value: 30 },
-              opacity: {
-                value: 0.08,
-              },
-              shape: {
-                type: "circle",
-              },
-              size: {
-                value: { min: 3, max: 8 },
-              },
-            },
-            themes: [
-              {
-                name: "light",
-                default: {
-                  value: true,
-                  mode: "light",
-                },
-                options: {
-                  background: {
-                    color: "#fff",
-                  },
-                  particles: {
-                    color: {
-                      value: "#000",
-                    },
-                  },
-                },
-              },
-              {
-                name: "dark",
-                default: {
-                  value: true,
-                  mode: "dark",
-                },
-                options: {
-                  background: {
-                    color: "#FF",
-                  },
-                  particles: {
-                    color: {
-                      value: "#000",
-                    },
-                  },
-                },
-              },
-            ],
-          }}
-        />
-      </div>
+     
       <div className="logo">
         <Typed
           className="typed-text"
@@ -222,6 +152,74 @@ const Header = () => {
         </div>
       </div>
       <div className="background"></div>
+      <div className="snow">
+        {" "}
+        <Particle
+          id="tsparticles"
+          init={particlesInit}
+          loaded={particlesLoaded}
+          options={{
+            fpsLimit: 60,
+            particles: {
+              move: {
+                bounce: false,
+                direction: "none",
+                enable: true,
+                outModes: "out",
+                random: false,
+                speed: 1,
+                straight: false,
+              },
+              number: { density: { enable: true, area: 1000 }, value: 30 },
+              opacity: {
+                value: 0.08,
+              },
+              shape: {
+                type: "circle",
+              },
+              size: {
+                value: { min: 3, max: 8 },
+              },
+            },
+            themes: [
+              {
+                name: "light",
+                default: {
+                  value: true,
+                  mode: "light",
+                },
+                options: {
+                  background: {
+                    color: "#fff",
+                  },
+                  particles: {
+                    color: {
+                      value: "#000",
+                    },
+                  },
+                },
+              },
+              {
+                name: "dark",
+                default: {
+                  value: true,
+                  mode: "dark",
+                },
+                options: {
+                  background: {
+                    color: "#FF",
+                  },
+                  particles: {
+                    color: {
+                      value: "#000",
+                    },
+                  },
+                },
+              },
+            ],
+          }}
+        />
+      </div>
     </div>
   );
 };
