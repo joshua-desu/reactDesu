@@ -233,7 +233,7 @@ html {
 }
 
 .speechbubble {
-  margin-top: calc(100vmin / 6);
+  margin-top: calc(100vmin / 7);
   max-width: 1000px;
   justify-content: center;
   align-items: center;
@@ -390,4 +390,8 @@ p {
 
 @media only screen and (min-width: 768px) {.wrapper2 {
     width:50vw;
+}}
+
+@media only screen and (max-width: 768px) {.speechbubble {
+  margin-top: calc(100vmin / 2);
 }}
