@@ -81,7 +81,7 @@ html {
   list-style-type: none;
   height: fit-content;
   text-align: left;
-  padding-left: 0px;
+  padding-left: 10px;
   padding-top: 10px;
 }
 
@@ -97,12 +97,12 @@ html {
   left: 0;
   opacity: .7;
   background: rgb(189, 189, 189);
-  color: #000000;
+  color: #282c34;
   position:absolute;
   max-height: 50vh;
   bottom: calc(100vmin / 8);
   height: fit-content;
-  border-radius: 0px 10px;
+  border-radius: 0px 10px 10px 0px;
   
 }
 
@@ -289,17 +289,17 @@ p {
   font-size: calc(100vmin / 10);
   text-align: left;
   background: #282c34;
-  height: 40vh;
+  height: fit-content;
   color: white;
-
 }
 
 .five {
+  border-top:25px solid #d0d0d0;
+  color:black;
   font-family: Bebas;
-  font-size: calc(100vmin / 10);
+  font-size: calc(100vmin / 6);
   text-align: center;
   height: 100vh;
-  color: #282c34;
   background-size: auto 100vh;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='2000' height='560' preserveAspectRatio='none' viewBox='0 0 2000 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1085%26quot%3b)' fill='none'%3e%3cpath d='M 0%2c50 C 100%2c89.4 300%2c244.2 500%2c247 C 700%2c249.8 800%2c78.6 1000%2c64 C 1200%2c49.4 1300%2c179.8 1500%2c174 C 1700%2c168.2 1900%2c62.8 2000%2c35L2000 560L0 560z' fill='rgba(74%2c 236%2c 155%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c321 C 100%2c351.8 300%2c468.6 500%2c475 C 700%2c481.4 800%2c342.6 1000%2c353 C 1200%2c363.4 1300%2c516.2 1500%2c527 C 1700%2c537.8 1900%2c431 2000%2c407L2000 560L0 560z' fill='rgba(40%2c 44%2c 52%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1085'%3e%3crect width='2000' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
 
@@ -361,12 +361,6 @@ p {
   text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 
 .App-header {
   background-color: #282c34;
@@ -393,3 +387,7 @@ p {
   display:none;
   scrollbar-width: none; 
 }
+
+@media only screen and (min-width: 768px) {.wrapper2 {
+    width:50vw;
+}}

@@ -7,7 +7,6 @@ import Sidebar from './components/Sidebar';
 import Background from './components/background';
 
 
-
 function App() {
 
   
@@ -15,9 +14,10 @@ function App() {
     <div className="App" id="outer-container">
             <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
       <Routes>
+       {/*<Route path="Resume" element={<Resume />} />  */}
       </Routes>
         <Background />
-        <Header />
+        {window.location.pathname == "/" ? <Header /> : null}
         <Navbar />
     </div>
     );

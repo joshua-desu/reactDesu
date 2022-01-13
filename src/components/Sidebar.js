@@ -1,25 +1,14 @@
 import React from 'react';
 import { slide as Menu } from 'react-burger-menu';
 import './Sidebar.css';
+import {Link} from 'react-scroll'
 
 export default props => {
   return (
     <Menu>
-      <a className="menu-item" href="/Header">
-        Top
-      </a>
-      <a className="menu-item" href="/About">
-        About
-      </a>
-      <a className="menu-item" href="/projects">
-        Projects
-      </a>
-      <a className="menu-item" href="/testimonials">
-        Testimonials
-      </a>
-      <a className="menu-item" href="/contact">
-        Contact
-      </a>
+      <Link activeClass="active" to="header-wrapper" spy={true} smooth={true} className="menu-item">Top</Link>
+      <Link activeClass="active" to="projects" spy={true} smooth={true}>Projects</Link>
+      <Link activeClass="active" to="five" spy={true} smooth={true}>Contact</Link>
     </Menu>
   );
 };

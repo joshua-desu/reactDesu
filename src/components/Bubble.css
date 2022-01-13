@@ -1,7 +1,6 @@
 @charset "UTF-8";
-.text-center {
-  text-align: center;
-}
+
+
 
 .man img {
     height: calc(100vmin / 2);
@@ -65,3 +64,50 @@
   border-color: #4aec9b;
 }
 
+form { max-width:50vw; margin:0px auto; }
+
+.feedback-input {
+  color: #26272b;
+  font-family: monospace;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: white;
+  border:2px solid #000000;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+  opacity: .85;
+}
+
+.feedback-input:focus { border:2px solid #000000; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: monospace;
+  width: 100%;
+  background:#000000;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  transition: all 0.3s;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#4aec9b; }
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
