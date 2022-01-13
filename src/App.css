@@ -395,3 +395,7 @@ p {
 @media only screen and (max-width: 768px) {.speechbubble {
   margin-top: calc(100vmin / 2);
 }}
+
+@media only screen and (max-width: 768px) {p {
+  font-size: 1.5vh;
+}}
