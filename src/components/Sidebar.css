@@ -80,3 +80,7 @@
   .bm-item:hover {
     color: #ffffff;
   }
+
+  @media only screen and (max-width: 768px) {.bm-menu {
+    width: 40vw;
+  }}
