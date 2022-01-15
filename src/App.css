@@ -6,6 +6,17 @@
   height: fit-content;
 }
 
+.footer {
+  color: white;
+  font-family: monospace;
+  font-size: calc(100vmin / 60);
+  position: relative;
+  text-align: center;
+  padding-top: 8vh;
+  filter: drop-shadow(1px 0px 2px black)
+}
+
+
 .snow {
   z-index: 1;
 }
@@ -152,8 +163,8 @@ html {
 
 .coverW {
   margin: 10px;
-  width: calc(100vmin / 2.5);  
-  height: calc(100vmin / 13);
+  width: calc(100vmin / 1.6);  
+  height: calc(100vmin / 7);
   background: #000000;
   position: absolute;
   left: 0px;
@@ -163,8 +174,8 @@ html {
 
 .cover2 {
   margin: 10px;
-  width: calc(100vmin / 3);  
-  height: calc(100vmin / 13);
+  width: calc(100vmin / 1.3);  
+  height: calc(100vmin / 7);
   background: white;
   position: absolute;
   right: 0px;

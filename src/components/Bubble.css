@@ -6,7 +6,7 @@
     height: calc(100vmin / 2);
     position: absolute;
     right: 10vmin;
-    bottom: calc(100vmin / 8);
+    bottom: calc(100vmin / 8.5);
   }
 
 
@@ -104,7 +104,7 @@ textarea {
   transition: all 0.3s;
   font-weight:700;
 }
-[type="submit"]:hover { background:#4aec9b; }
+[type="submit"]:hover { background: white; color:black; }
 
 .forms {
   display: flex;

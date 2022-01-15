@@ -3,7 +3,7 @@ import Typed from "react-typed";
 import "./Bubble.css";
 import Hello from "../images/joshua.png";
 import Slide from "react-reveal/Slide";
-import simpleIcons from "simple-icons";
+import mac from "../images/mac.svg";
 import Particle from "react-tsparticles";
 
 
@@ -40,7 +40,7 @@ const Header = () => {
               <p>
                 const hello = ['web developer', <br />
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                'fullstack', <br />
+                'driven leader', <br />
                 &nbsp;&nbsp;&nbsp;&nbsp;
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 'passionate communicator', <br />
@@ -58,13 +58,13 @@ const Header = () => {
               <div className="skills">
                 <ul>
                   <li>HTML</li>
-                  <li>CSS++</li>
+                  <li>CSS</li>
                   <li>Javascript</li>
-                  <li>React.js+</li>
-                  <li>SQL</li>
+                  <li>React.js</li>
+                  <li>node.js</li>
                   <li>Bootstrap</li>
                   <li>Python</li>
-                  <li>Java</li>
+                  <li>SQL</li>
                   <li>npm</li>
                   <li>git</li>
                   <li>Mac OS</li>
@@ -72,7 +72,7 @@ const Header = () => {
                 </ul>
               </div>{" "}
             </Slide>{" "}
-            <img src={Hello} />
+            <img src={Hello} alt="selfie" />
           </div>
         </div>
       </div>
@@ -85,7 +85,7 @@ const Header = () => {
           <div className="coverW"></div>
           <div className="words">
             <Slide right>
-              <span id="testt">JAPANSLATOR</span>
+              <span id="testt">JAPANSLATOR</span></Slide>
               <span id="details">
                 A Google Chrome extension that I built for students learning
                 Japanese. This was my first attempt at making a browser
@@ -97,7 +97,7 @@ const Header = () => {
                 dictionary.
               </span>
               <div className="languages">HTML, CSS, Javascript</div>
-            </Slide>
+            
           </div>
           <div className="previewBox1"></div>
         </div>
@@ -105,27 +105,23 @@ const Header = () => {
           <div className="cover2"></div>
           <div className="words2">
             <Slide right>
-              DOKO IKU GO
+            joshuadesu.io</Slide>
               <span id="details2">
-                Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              This project was an exercise in combing many different concepts related to front-end development. It is written within the React.js framework and uses a variety of packages for effects. The most challenging part of this project was creating custom CSS and optimizing it for mobile devices. It is still being updated as more ideas and changes come to me !
               </span>
-              <div className="languages">React Native</div>
-            </Slide>
+              <div className="languages"></div>
+            
           </div>
           <div className="previewBox22"></div>
         </div>
         <div className="slide four">
           <div className="coverW"></div>
           <Slide right>
-            <div className="words">MONTELLODAIRY</div>
-            <span id="details">Coming Soon...</span>
-          </Slide>
+            <div className="words">Future Goals</div>          </Slide>
+
+            <span id="details">While I am working on perfecting the fundamentals, I am to gradually
+            increase the complexicity of my designs. I have an iOS app in the planning stages which will
+            require me to learn React Native in the process. I would also like to gain some fluency in Java.</span>
         </div>
         <div className="slide five">
           <Slide bottom>C O N T A C T</Slide>
@@ -149,8 +145,12 @@ const Header = () => {
             ></textarea>
             <input type="submit" value="SUBMIT" />
           </form>
-        </div>
+          <div className='footer'>
+            Designed in 2022 with 🔥 <br />
+            Joshua Burns | joshua.desu@icloud.com
+          </div>
       </div>
+        </div>
       <div className="background"></div>
       <div className="snow">
         {" "}
