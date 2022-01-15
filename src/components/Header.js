@@ -105,7 +105,7 @@ const Header = () => {
           <div className="cover2"></div>
           <div className="words2">
             <Slide right>
-            joshuadesu.io</Slide>
+            joshuadesu</Slide>
               <span id="details2">
               This project was an exercise in combing many different concepts related to front-end development. It is written within the React.js framework and uses a variety of packages for effects. The most challenging part of this project was creating custom CSS and optimizing it for mobile devices. It is still being updated as more ideas and changes come to me !
               </span>
@@ -117,7 +117,7 @@ const Header = () => {
         <div className="slide four">
           <div className="coverW"></div>
           <Slide right>
-            <div className="words">Future Goals</div>          </Slide>
+            <div className="words">Goals</div>          </Slide>
 
             <span id="details">While I am working on perfecting the fundamentals, I am to gradually
             increase the complexicity of my designs. I have an iOS app in the planning stages which will

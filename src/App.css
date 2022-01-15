@@ -384,6 +384,10 @@ p {
   color: white;
 }
 
+a:link {
+  text-decoration: none;
+}
+
 
 .black {
   background-color: #282c34;
