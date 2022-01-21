@@ -2,15 +2,26 @@ import React from "react";
 import Typed from "react-typed";
 import "./Bubble.css";
 import Hello from "../images/joshua.png";
-import Slide from "react-reveal/Slide";
+import Slide from "react-reveal/Fade";
 import mac from "../images/mac.svg";
+import css from "../images/css.svg";
+import html from "../images/html.svg";
+import js from "../images/js.svg";
+import ps from "../images/ps.svg";
+import react from "../images/react.svg";
+import sql from "../images/sql.png";
+import boot from "../images/boot.svg";
+import npmm from "../images/npmm.svg";
+import gh from "../images/git.svg";
+import sf from "../images/sf.svg";
+import jpns from "../images/jpns.jpg";
+import desur from "../images/desur.png";
 import Particle from "react-tsparticles";
 
 
 const particlesInit = (main) => {
   console.log(main);
 
-  // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
 };
 
 const particlesLoaded = (container) => {
@@ -52,26 +63,26 @@ const Header = () => {
               </p>
             </div>
           </div>
-          <div className="man">
+          
             {" "}
             <Slide left>
               <div className="skills">
                 <ul>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>Javascript</li>
-                  <li>React.js</li>
-                  <li>node.js</li>
-                  <li>Bootstrap</li>
-                  <li>Python</li>
-                  <li>SQL</li>
-                  <li>npm</li>
-                  <li>git</li>
-                  <li>Mac OS</li>
-                  <li>Photoshop</li>
+                  <li><img src= { html } />HTML</li>
+                  <li><img src= { css } />CSS</li>
+                  <li><img src= { js } />Javascript</li>
+                  <li><img src= { react } />React.js</li>
+                  <li><img src= { sql } />node.js</li>
+                  <li><img src= { sf } />Salesforce</li>
+                  <li><img src= { boot } />Bootstrap</li>
+                  <li><img src= { sql } />SQL</li>
+                  <li><img src= { npmm } />npm</li>
+                  <li><img src= { gh } />git</li>
+                  <li><img src= { mac } />Mac OS</li>
+                  <li><img src= { ps } />Photoshop</li>
                 </ul>
               </div>{" "}
-            </Slide>{" "}
+            </Slide>{" "}<div className="man">
             <img src={Hello} alt="selfie" />
           </div>
         </div>
@@ -80,13 +91,13 @@ const Header = () => {
       <div className="wrapper">
         <div className="aboutme"> </div>
 
-        <div className="projects">P R O J E C T S</div>
+        <Slide bottom><div className="projects">P R O J E C T S</div></Slide>
         <div className="slide two">
           <div className="coverW"></div>
           <div className="words">
-            <Slide right>
-              <span id="testt">JAPANSLATOR</span></Slide>
-              <span id="details">
+            <Slide>
+              <span id="testt">JAPANSLATOR</span>
+             <span id="details">
                 A Google Chrome extension that I built for students learning
                 Japanese. This was my first attempt at making a browser
                 extension, and it was written with Javascript, HTML, and CSS. It
@@ -95,34 +106,32 @@ const Header = () => {
                 into easily readable hiragana. Additionally, you may view the
                 English equivalent and check out the entries on Jisho.org
                 dictionary.
-              </span>
-              <div className="languages">HTML, CSS, Javascript</div>
-            
+              </span></Slide>
+                      <div className="previewBox1"><img src = { jpns } /></div>
+
           </div>
-          <div className="previewBox1"></div>
         </div>
         <div className="slide three">
           <div className="cover2"></div>
           <div className="words2">
-            <Slide right>
-            joshuadesu</Slide>
-              <span id="details2">
+            <Slide>
+            joshuadesu
+            <span id="details2">
               This project was an exercise in combing many different concepts related to front-end development. It is written within the React.js framework and uses a variety of packages for effects. The most challenging part of this project was creating custom CSS and optimizing it for mobile devices. It is still being updated as more ideas and changes come to me !
-              </span>
-              <div className="languages"></div>
-            
+              </span></Slide>
+                      <div className="previewBox2"><img src = { desur } /></div>
+
           </div>
-          <div className="previewBox22"></div>
         </div>
         <div className="slide four">
           <div className="coverW"></div>
-          <Slide right>
-            <div className="words">Goals</div>          </Slide>
+          <Slide>
+            <div className="words">Goals</div>     
 
-            <span id="details">While I am working on perfecting the fundamentals, I am to gradually
+         <span id="details">While I am working on perfecting the fundamentals, I am to gradually
             increase the complexicity of my designs. I have an iOS app in the planning stages which will
             require me to learn React Native in the process. I would also like to gain some fluency in Java.</span>
-        </div>
+       </Slide>  </div>
         <div className="slide five">
           <Slide bottom>C O N T A C T</Slide>
           <form className="forms">
@@ -139,7 +148,6 @@ const Header = () => {
               placeholder="Email"
             />
             <textarea
-              name="text"
               class="feedback-input"
               placeholder="Comment"
             ></textarea>
