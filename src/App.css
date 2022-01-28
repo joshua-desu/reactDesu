@@ -38,7 +38,7 @@
   position: fixed;
   content: " ";
   background: white;
-  height: calc(100vmin / 14);
+  height: calc(100vmin / 13);
   width: 100vw;
   z-index:2;
   box-shadow: 0px 1px 5px -1px #ffffff;
@@ -423,15 +423,13 @@ a:link {
   scrollbar-width: none; 
 }
 
-@media only screen and (min-width: 768px) {.wrapper2 {
+@media only screen and (min-width: 1000px) {.wrapper2 {
     width:50vw;
     
 }
 .skills img {
   height: 4.5vh;
 }
-
-
 }
 
 
@@ -448,5 +446,9 @@ a:link {
 }
 
 @media only screen and (max-width: 375px) {p {
-  font-size: calc(100vmin / 35);
+  font-size: calc(100vmin / 39);
+}}
+
+@media only screen and (min-width: 810px) {p {
+  font-size: calc(100vmin / 39);
 }}

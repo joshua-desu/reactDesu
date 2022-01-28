@@ -134,7 +134,7 @@ const Header = () => {
        </Slide>  </div>
         <div className="slide five">
           <Slide bottom>C O N T A C T</Slide>
-          <form className="forms">
+          <form className="forms" action="https://getform.io/f/819d429b-1a97-4c8f-a261-1b10c782940f" target="_blank" method="POST">
             <input
               name="name"
               type="text"
