@@ -11,7 +11,7 @@ function App() {
   
   return (
     <div className="App" id="outer-container">
-            <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
+        <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
         <Background />
         <Header /> 
         <Navbar />

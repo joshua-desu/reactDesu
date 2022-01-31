@@ -159,75 +159,7 @@ const Header = () => {
           </div>
       </div>
         </div>
-      <div className="background"></div>
-      <div className="snow">
-        {" "}
-        <Particle
-          id="tsparticles"
-          init={particlesInit}
-          loaded={particlesLoaded}
-          options={{
-            fpsLimit: 60,
-            particles: {
-              move: {
-                bounce: false,
-                direction: "none",
-                enable: true,
-                outModes: "out",
-                random: false,
-                speed: 1,
-                straight: false,
-              },
-              number: { density: { enable: true, area: 1000 }, value: 30 },
-              opacity: {
-                value: 0.08,
-              },
-              shape: {
-                type: "circle",
-              },
-              size: {
-                value: { min: 3, max: 8 },
-              },
-            },
-            themes: [
-              {
-                name: "light",
-                default: {
-                  value: true,
-                  mode: "light",
-                },
-                options: {
-                  background: {
-                    color: "#fff",
-                  },
-                  particles: {
-                    color: {
-                      value: "#000",
-                    },
-                  },
-                },
-              },
-              {
-                name: "dark",
-                default: {
-                  value: true,
-                  mode: "dark",
-                },
-                options: {
-                  background: {
-                    color: "#FF",
-                  },
-                  particles: {
-                    color: {
-                      value: "#000",
-                    },
-                  },
-                },
-              },
-            ],
-          }}
-        />
-      </div>
+
     </div>
   );
 };
