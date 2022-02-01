@@ -70,9 +70,7 @@ const Header = () => {
                   mode: "light",
                 },
                 options: {
-                  background: {
-                    color: "#fff",
-                  },
+  
                   particles: {
                     color: {
                       value: "#000",
@@ -86,10 +84,7 @@ const Header = () => {
                   value: true,
                   mode: "dark",
                 },
-                options: {
-                  background: {
-                    color: "#FF",
-                  },
+                options: {           
                   particles: {
                     color: {
                       value: "#000",
